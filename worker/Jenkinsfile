@@ -1,0 +1,34 @@
+ 	stage('Clone_code') {
+    // some block
+    echo "I am inside clone code stage"
+}
+stage('Code_compile') {
+    // some block
+    echo "I am inside code compile stage"
+}
+stage('Code_review') {
+    // some block
+    echo "I am inside code compile stage"
+    echo ""
+}
+stage('Unit_testing') {
+    // some block
+    echo "I am inside code compile stage"
+}
+stage('Code_build') {
+    // some block
+    echo "I am inside code compile stage"
+}
+stage('Code_deploy') {
+    // some block
+    echo "I am inside code compile stage"
+}
+stage('system testing') {
+    // some block
+    echo "I am inside code compile stage"
+}
+stage('send an email success/failure ') {
+    // some block
+    echo "I am inside code compile stage"
+}
+
